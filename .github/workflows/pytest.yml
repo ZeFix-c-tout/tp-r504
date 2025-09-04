@@ -1,0 +1,3 @@
+cd ~/tp-r504; mkdir -p .github/workflows
+cd .github/workflows
+touch pytest.yml
