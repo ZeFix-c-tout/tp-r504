@@ -1,3 +1,3 @@
 # tp-r504
-Test Results
+**__Test Results__**
 ![Test results](https://github.com/Zefix-c-tout/tp-r504/actions/workflows/pytest.yml/badge.svg)
