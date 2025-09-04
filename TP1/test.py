@@ -17,3 +17,8 @@ def test_3():
 
 def test_4():
 	assert f.puissance(0,-1) == 0
+
+'''
+def test_exc_1():
+with pytest.raises(Exception):
+puissance(0,-1)
