@@ -14,7 +14,7 @@ def test_2():
 
 
 def test_3():
-	assert f.puissance(0,1) == 0
+	assert f.puissance(0,3) == 0
 '''
 	if x < 0  :
 			raise TypeError("Only integers are allowed")
