@@ -1,7 +1,6 @@
-docker run --rm -d \
-	-v vol-sql-demo:/var/lib/mysql \
+set -x
+docker run -d \
 	--name tp4-app \
 	-p 5000:5000 \
 	--network net-tp4 \
-	--env MYSQL_ROOT_PASSWORD=foo \
-mysql:8.0
+im-tp4
