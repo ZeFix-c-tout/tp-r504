@@ -15,7 +15,7 @@ RUN apt-get install -y mysql-connector-python
 
 RUN mkdir -p /srv/templates
 
-COPY index.html /srv/templates/
-COPY app_1.py /srv/
+copy index.html /srv/templates/
+copy app_1.py /srv/
 
 CMD ["flask","--app","/srv/app1","run","--host=0.0.0.0"]
