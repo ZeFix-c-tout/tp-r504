@@ -1,0 +1,5 @@
+Q4.1 Tout fonctionne mis à part que le document de la page n'est plus au même endroit
+Q4.2 Oui on s'attend à ce résultat là
+Q4.3 Oui le document est conforme 
+Q4.4 N'a page me renvoie bien les entêtes mais ne m'affiche pas le hmtl 
+Q4.5 Les navigateurs (forme) sont différents
