@@ -1,0 +1,3 @@
+grep -P "^[^\.].*\.(jpg|png|gif)$" noms_fichiers.txt
+grep -P "^[-]?\d+[\d,.e]+[\de]+$" 2.2
+grep -P "^[1]?[ (-]?\d+[\d)][-]?.*" 2.3
