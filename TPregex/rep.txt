@@ -3,4 +3,5 @@ grep -P "^[-]?\d+[\d,.e]+[\de]+$" 2.2
 grep --color  -P "^[1]?[.() ]?\d{3}[ -]?\d{3}[ -]?\d{4}$" 2.3
 a="(2[0-4]\d|25[0-5]|1\d\d|[1-9]\d?)"
 grep --color -P "^$a\.$a\.$a\.$a$" 2.4
-
+grep tcp /etc/services | wc -l
+grep -P "\x09(\d\d{1,2}|10[01]\d|102[0-2])/udp" /etc/services
